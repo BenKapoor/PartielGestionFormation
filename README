@@ -1,0 +1,11 @@
+Procédure d'installation de l'application GestionFormation
+
+BDD:
+	Importer le fichier dans votre base mySQL
+APP:
+	* Décompresser le .zip
+	* Ouvrez avec la console CMD
+	* Faire mvn clean install
+	* Récupérer le .war
+	* Mettre le .war dans tomcat
+	* aller sur cette adresse http://localhost:8080/GestionFormation/
